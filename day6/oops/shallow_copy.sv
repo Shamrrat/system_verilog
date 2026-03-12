@@ -47,3 +47,9 @@ module tb;
 		p2.display ("p2");
 	end
 endmodule
+
+//OUTPUT
+# [p1] addr=0xfacecafe data=0x12345678 id=26
+# [p2] addr=0xfacecafe data=0x12345678 id=26
+# [p1] addr=0xabcdef12 data=0x5a5a5a5a id=17
+# [p2] addr=0xfacecafe data=0x12345678 id=17
